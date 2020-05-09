@@ -54,7 +54,7 @@ public class ProductController {
 		MultipartFile image = product.getProductImage();
 		if (image != null && !image.isEmpty()) {
 			// Mac
-			Path path = Paths.get("/Users/xxx/products/" + product.getId() + ".jpg");
+			Path path = Paths.get("/Users/liuxiaosheng/products/" + product.getId() + ".jpg");
 			//Path path = Paths.get("/Users/xxx/products/" + product.getId() + ".jpg");
 
 			// windows

@@ -83,59 +83,6 @@
 </div>
 
 <hr>
-<div class="w3-row-padding" style="padding:0px 250px; margin-bottom: 20px">
-    <div class="w3-third w3-container w3-margin-bottom">
-        <img src="<c:url value="/resource/images/products/iphoneXR.jpg"/>" alt="Norway" style="width: 100%"
-             class="w3-hover-opacity">
-        <div class="w3-container w3-white" style="padding:0px 50px;">
-            <p>
-                <b>iPhone XR</b>
-            </p>
-            <p>
-            <ul>
-                <li>Product Dimensions - 5.94 x 2.98 x 0.33 inches</li>
-                <li>Item weight - 6.84 pounds</li>
-                <li>Rating - 4.5</li>
-                <li>Price - 749.99</li>
-            </ul>
-            </p>
-        </div>
-    </div>
 
-    <div class="w3-third w3-container w3-margin-bottom" style="padding-top:100px">
-        <img src="<c:url value="/resource/images/products/macbook.jpg"/>" alt="Norway" style="width: 100%"
-             class="w3-hover-opacity">
-        <div class="w3-container w3-white" style="padding:84px 50px;">
-            <p>
-                <b>MacBook Pro</b>
-            </p>
-            <p>
-            <ul>
-                <li>Product Dimensions - 13.75 x 9.48 x 0.61 inches</li>
-                <li>Item weight - 4.02 pounds</li>
-                <li>Rating - 4.3</li>
-                <li>Price - 2799.0</li>
-            </ul>
-            </p>
-        </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-        <img src="<c:url value="/resource/images/products/ipad.jpg"/>" alt="Norway" style="width: 100%"
-             class="w3-hover-opacity">
-        <div class="w3-container w3-white" style="padding:16px 60px;">
-            <p>
-                <b>Ipad Pro</b>
-            </p>
-            <p>
-            <ul>
-                <li>Product Dimensions - 11.04 x 8.46 x 0.23 inches</li>
-                <li>Item weight - 1.39 pounds</li>
-                <li>Rating - 4.5</li>
-                <li>Price - 999.0</li>
-            </ul>
-            </p>
-        </div>
-    </div>
-</div>
 </body>
 </html>

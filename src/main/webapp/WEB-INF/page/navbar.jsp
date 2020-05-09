@@ -19,13 +19,13 @@
 <nav class="navbar navbar-inverse">
     <div  class="container-fluid">
         <div class="navbar">
-            <img src="<c:url value="/resource/images/logo.png"/>" width="210px" height="130px" alt="logo-image"/>
+            <title>WDS</title>
         </div>
 
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-left">
                 <li><a href=" <c:url value="/index" />">Home</a></li>
-                <li><a href=" <c:url value="/getAllProducts" />">Products</a></li>
+                <li><a href=" <c:url value="/getAllProducts" />">Policies</a></li>
                 <li><a href=" <c:url value="/aboutus" />">About Us</a></li>
 
                 <!-- Only admin can view this link -->
@@ -56,7 +56,7 @@
 
                 <c:if test="${pageContext.request.userPrincipal.name==null}">
                     <li><a href="<c:url value="/login" />"><span
-                            class="glyphicon glyphicon-shopping-cart"></span> My Cart</a></li>
+                            class="glyphicon glyphicon-shopping-cart"></span> Your Policies</a></li>
                     <li><a href="<c:url value="/customer/registration" />"><span
                             class="glyphicon glyphicon-user"></span> SignUp</a></li>
                     <li><a href="<c:url value="/login" />"><span

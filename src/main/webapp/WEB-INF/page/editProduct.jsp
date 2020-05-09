@@ -44,11 +44,11 @@
 								class="form-control" path="productDescription"></form:textarea>
 						</div>
 						<div class="form-group">
-							<form:label path="productCategory">Product Category</form:label>
-							<form:radiobutton path="productCategory" value="Android" />
-							Android
-							<form:radiobutton path="productCategory" value="Mac" />
-							IOS
+							<form:label path="productCategory">Policy Category</form:label>
+							<form:radiobutton path="productCategory" value="Home">Home</form:radiobutton>
+							
+							<form:radiobutton path="productCategory" value="Auto">Auto</form:radiobutton>
+							
 						</div>
 						<div class="form-group">
 							<form:label path="#">Product Category</form:label>
@@ -78,6 +78,10 @@
 						</div>
 						<div class="form-actions">
 							<button type="submit" class="btn btn-lg btn-info">Update</button>
+						</div>
+						<div class = "row">
+						
+						
 						</div>
 					</div>
 				</form:form>
